@@ -1,6 +1,5 @@
-import React from 'react';
+import React, { Component } from 'react';
 import { View } from 'react-native';
+import api from '../../services/api';
 
-export default function Main() {
-  return <View />;
-}
+export default class User extends Component() {}
